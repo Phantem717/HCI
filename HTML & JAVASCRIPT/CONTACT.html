@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./../CSS/styleCU.css">
+</head>
+<body>
+  <div class="HeaderBox">
+     
+    <div class="Logo"><img src="./../IMAGES/JCC.png" alt="logo" ></div>
+    <div id="HText1" class="HText">
+        <li class = "Home" > <a href="index.html"><b>Home</b></a></li>
+        <li class = "Events"><a href="Events.HTML"><b>Events</b></a></li>
+        <li class="Price"><a href="PRICING.HTML"><b>Pricing</b></a></li>
+        <li class="About"><a href="about us.html"><b>About Us</b></a></li>
+        <li class="Contact"><a href="CONTACT.html"><b>Contact Us!</b></a></li>
+    </div>
+    <div class="HB">
+        <a href="javascript:void(0);" onclick="toggleMenu()"><img src="./../IMAGES/hamburger.png" alt="HB"></a>
+    </div>
+</div>
+
+<script>
+     function toggleMenu() {
+        var navbar = document.getElementById("HText1");
+
+        navbar.classList.toggle("active");
+    }
+    </script>
+
+    <div class="BG">
+    <div class="formBOX">
+     <form id="CUFORM">
+      <div class="TITLE"> <h1>Contact Us</h1></div>
+     
+      <div class="Name"><b>Name</b></div>
+      <div class="nameForm">
+        
+        <input type="text" id="Fname" name="Fname" placeholder="First Name" />
+
+        
+        <input type="text" id="Lname" name="Lname" placeholder="Last Name" />
+    </div>
+     
+      <div class="FField">
+        <label for="usermail">Email</label>
+        <input type="text" id="usermail" name="usermail" placeholder="Enter your email (End With @gmail.com)" />
+      </div>
+      <div class="FField">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder= "Phone Number starts With +62 (No Space And -)">
+      </div>
+
+      <div class="TypeForm">
+        <h4 class="Type">Type</h4>
+        <select id="type" class="type" required>
+            <option class="Feedback">I Want To Send Some Feedback</option>
+            <option class="Package">I Want To Inquire A Package</option>
+            <option class="QA">I Would Like To Ask A Question</option>
+           
+        
+        </select><br>
+    </div>
+
+      <div class="MSGFIELD">
+        <label for="msg" class="msg_title"><b>Message</b></label>
+        <textarea type="text" id="msg" name="msg" placeholder= "Message (10-500 Words)"></textarea>
+
+      </div>
+
+      <div class="FField">
+        <label>Preferred Contact Method</label>
+        <div id="PREF">
+          <div>
+            <input type="radio" id="Phone" name="pref" />
+            <label for="Phone">Phone</label>
+          </div>
+          <div>
+            <input type="radio" id="E-Mail" name="pref" />
+            <label for="E-Mail">E-Mail</label>
+          </div>
+        </div>
+      </div>
+      <button type="submit" id="CUBUTTON">Send Message</button>
+    </form>
+</div>
+</div>
+<script src="form.js"></script>
+</body>
+<footer>
+    
+  <div class="footerTEXT">
+      <div class="FLOGO"><img src="./../IMAGES/JCC.png" alt=""></div>
+      <div class="CP">
+          Phone   : +628118567857 <br>
+          Email   : JCC@gmail.com <br>
+          Address : Jl. Gatot Subroto No.1, RT.1/RW.3, Gelora, Kota Jakarta Pusat, 10270 <br>
+
+          <div class="CPT">Visit Our Social Medias!
+              <div class="footerIMG">
+                 
+                  
+                  <div class="IG"><a href="https://www.instagram.com/pradahws21/"><img src="./../IMAGES/instagram (1).png" alt="IG"></div></a>
+                  <div class="Twet"><a href="https://twitter.com"><img src="./../IMAGES/twitter.png" alt="twet"></div></a>
+                  <div class="yt"><a href="https://www.youtube.com/channel/UCWnrCDp7czBSPURhb769AZA"><img src="./../IMAGES/youtube (1).png" alt="ytp"></div></a>
+              </div>
+          </div>
+      </div>
+ 
+ 
+  </div>
+  <div class="copyright">Copyright © 2023 Pradah Widjaksono Suherli, All Rights Reserved.
+</div>
+
+</footer>
+</html>

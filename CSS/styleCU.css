@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+font-family: 'Titilum Web';
+
+}
+.BG{
+    background-color: lightblue;
+}
+.Logo img{
+    width: 75px;
+}
+
+.HeaderBox{
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    background-color: lightskyblue;
+    box-shadow: 0 0 5px rgb(17, 85, 137), 0 0 10px rgb(17, 85, 137), 0 0 15px rgb(17, 85, 137), 0 0 20px rgb(17, 85, 137);
+    border-bottom: 3px #0085ff solid;
+    display: flex;
+    position: sticky;
+}
+
+.HText{
+    display: inline-flex;
+padding-top: 20px;
+    position: relative;
+}
+
+.Home{
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+   
+
+    /* background-color: aqua; */
+}
+.TITLE{
+    border-bottom: 3px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Events{
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+   
+
+    /* background-color: aqua; */
+}
+.Price{
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    /* background-color: aqua; */
+}
+.About {
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    /* background-color: aqua; */
+}
+.Contact {
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    /* background-color: aqua; */
+}
+.Logo{
+        /* border-radius: 5px; */
+    /* padding-top: 5px; */
+    /* margin-right: 15px; */
+    display: flex;
+    /* padding-left: 15px; */
+    margin-left: 20px;
+    /* padding-right: 15px; */
+    /* margin-bottom: 20px; */
+    transition: all 0.5s;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Events:hover,.Price:hover,.About:hover,.Contact:hover,.Home:hover{
+background: rgb(81, 158, 251);
+box-shadow: 0 0 5px rgb(17, 85, 137), 0 0 10px rgb(17, 85, 137), 0 0 15px rgb(17, 85, 137), 0 0 20px rgb(17, 85, 137);
+}
+.formBOX{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#CUFORM{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(17, 85, 137), 0 0 10px rgb(17, 85, 137), 0 0 15px rgb(17, 85, 137), 0 0 20px rgb(17, 85, 137);
+    outline: 5px ridge #73caff;
+    padding: 1rem;
+    background-color: #97d9ff;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.FField{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: .5rem;
+    
+}
+
+.nameForm{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#Fname{
+    margin-left: 0;
+    height: 2rem;
+    border-radius: 8px;
+    width: 50%;
+    border: 3px #1f90ff solid;
+box-shadow: 5px 5px 2px 0px #009dff91;
+
+    padding-inline-start: .5rem;
+    box-sizing: border-box;
+}
+.Name{
+    width: 100%;
+}
+#Lname{
+    margin-left: 20px;
+    height: 2rem;
+    border-radius: 8px;
+    width: 50%;
+    border: 3px #1f90ff solid;
+    box-shadow: 5px 5px 2px 0px #009dff91;
+    padding-inline-start: .5rem;
+    box-sizing: border-box;
+}
+
+.nameForm > label{
+    font-weight: bold;
+
+}
+
+.FField > label {
+    font-weight: bold;
+}
+
+.FField > input {
+    height: 2rem;
+    border-radius: 8px;
+    border: 3px #1f90ff solid;
+    box-shadow: 5px 5px 2px 0px #009dff91;
+    padding-inline-start: .5rem;
+    box-sizing: border-box;
+}
+
+.FField > input:focus {
+    outline: none;
+}
+
+.MSGFIELD{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 1rem; */
+    width: 100%;
+}
+
+#msg{
+    height: 100px;
+    resize: none;
+    border-radius: 8px;
+    width: 100;
+    border: 3px #1f90ff solid;
+    box-shadow: 5px 5px 2px 0px #009dff91;
+    padding-inline-start: .5rem;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+a{
+    color: black;
+}
+.TypeForm{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 5rem; */
+    border-radius: 8px;
+}
+
+.Feedback{
+height: 5rem;
+}
+
+.type{
+    height: 2rem;
+    border-radius: 8px;
+    border: 3px #1f90ff solid;
+    box-shadow: 5px 5px 2px 0px #009dff91;
+    padding-inline-start: .5rem;
+    box-sizing: border-box;
+    margin-top: .5rem;
+}
+
+.msg_title{
+    text-align: left;
+    vertical-align: top;
+}
+
+
+#PREF, #PREF > div {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+#male, #female {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+#CUBUTTON {
+    color: white;
+    margin-top: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1px 2px 9px #00000094;
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #0060ae;
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.05s;
+}
+
+#CUBUTTON:hover{
+    background: rgb(81, 158, 251);
+box-shadow: 0 0 5px rgb(17, 85, 137), 0 0 10px rgb(17, 85, 137), 0 0 15px rgb(17, 85, 137), 0 0 20px rgb(17, 85, 137);
+}
+
+#CUBUTTON:hover {
+    background-color: rgb(0, 80, 179);
+    transition: 300ms;
+}
+.HB{
+    display: none;
+}
+footer{
+    background-color: #7cbcff;
+    /* height: 400px; */
+    padding-top: 0;
+    box-shadow: 5px 5px black;
+   
+
+}
+
+
+
+
+.footerIMG{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.CPT{
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.IG img{
+    width: 50%;
+}
+.Twet img{
+    width: 50%;
+}
+.yt img{
+    width: 50%;
+}
+.copyright{
+    font-size: 20px;
+    text-align: center;
+}
+.CP{
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+    line-height: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.FLOGO img{
+    width: 10%; 
+}
+.FLOGO{
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* width: 75%; */
+    border-bottom: 2px solid black;
+    background-color: #008eff;
+    box-shadow: 0 0 5px rgb(17, 85, 137), 0 0 10px rgb(17, 85, 137), 0 0 15px rgb(17, 85, 137), 0 0 20px rgb(17, 85, 137);
+    border-top: 2px solid black;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 768px){
+    #HText1.active{
+        pointer-events: all;
+          opacity: 1;
+  
+      }
+    .Logo{
+        margin-left: 20px;
+        float: left;
+       
+        transition: all 0.5s;
+    }
+    
+        .HB{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+    
+        }
+        .HB img{
+            width: 50%;
+        }
+        #HText1{
+            position: fixed;
+            
+            width: 100%;
+            /* height: 100vh; */
+            top: 70px;
+            /* left: -100%; */
+            text-align: center;
+            transition: all .5s;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            background: #3f9fff;
+            color: white;
+            z-index: 1;
+     
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.5s;
+            
+        }
+        
+    .footer{
+        background-color: #7cbcff;
+        /* height: 400px; */
+        padding-top: 0;
+        box-shadow: 5px 5px black;
+    }
+    .CP{
+        font-size: 15px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 30px;
+        line-height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .FLOGO{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-bottom: 2px solid black;
+        background-color: #008eff;
+        box-shadow: 0 0 5px rgb(17, 85, 137), 0 0 10px rgb(17, 85, 137), 0 0 15px rgb(17, 85, 137), 0 0 20px rgb(17, 85, 137);
+        border-top: 2px solid black;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        }
+        .FLOGO img{
+            width: 20%;
+        }
+    .copyright{
+        font-size: 15px;
+    }
+    .CPT{
+        text-align: center;
+        line-height: 50px;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    #formBOX{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 1000px;
+        /* padding-bottom: 100px; */
+        justify-content: center;
+        align-items: center;
+    }
+    #CUFORM{
+        width: 90%;
+        display: flex;
+        /* height: 900px; */
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 5px rgb(17, 85, 137), 0 0 10px rgb(17, 85, 137), 0 0 15px rgb(17, 85, 137), 0 0 20px rgb(17, 85, 137);
+        outline: lightskyblue;
+        padding: 1rem;
+        outline-style: solid;
+        margin-top: 30px;
+        background-color: #97d9ff;
+        box-sizing: border-box;
+        border-radius: 15px;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .Events:hover,.Price:hover,.About:hover,.Contact:hover,.Home:hover{
+        background: none;
+        box-shadow: none;
+        }
+        
+       
+        .EB1:hover,.EB2:hover,.EB3:hover{
+            box-shadow: 0 0 5px rgb(17, 85, 137), 0 0 10px rgb(17, 85, 137), 0 0 15px rgb(17, 85, 137), 0 0 20px rgb(17, 85, 137);
+            width: 300px;
+            background: rgb(0, 72, 139);
+            color: white;
+        
+           
+            
+        }
+}
+
